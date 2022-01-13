@@ -29,18 +29,23 @@ CREATE TABLE Puente (
 INSERT INTO Jugador VALUES ('Leo', 2411);
 INSERT INTO Jugador VALUES ('Abel', 1206);
 INSERT INTO Jugador VALUES ('Marc', 2306);
+INSERT INTO Jugador VALUES ('Lukas', 2510);
+INSERT INTO Jugador VALUES ('Santos', 1510);
 INSERT INTO Partida VALUES ('1','6 Octubre 12:30','Girona', 5, 'Leo');
 INSERT INTO Partida VALUES ('2','7 Octubre 12:30','Lleida', 5, 'Marc');
 INSERT INTO Partida VALUES ('3','8 Octubre 12:30','Sitges', 5, 'Abel');
 INSERT INTO Partida VALUES ('4','9 Octubre 12:30','Andorra', 5, 'Abel');
+INSERT INTO Partida VALUES ('5','10 Octubre 12:30','Madrid','5', 'Santos');
+INSERT INTO Partida VALUES ('6','11 Octubre 12:30','Galicia','5', 'Lukas');
 INSERT INTO Puente VALUES ('1','Leo',100);
-INSERT INTO Puente VALUES ('2','Leo',70);
-INSERT INTO Puente VALUES ('3','Leo',60);
 INSERT INTO Puente VALUES ('1','Abel',70);
+INSERT INTO Puente VALUES ('2','Leo',70);
+INSERT INTO Puente VALUES ('2','Marc',90);
+INSERT INTO Puente VALUES ('3','Leo',60);
 INSERT INTO Puente VALUES ('3','Abel',100);
 INSERT INTO Puente VALUES ('4','Abel',100);
-INSERT INTO Puente VALUES ('2','Marc',90);
 INSERT INTO Puente VALUES ('4','Marc',80);
-
-
-
+INSERT INTO Puente VALUES ('5','Santos',80);
+INSERT INTO Puente VALUES ('5','Lukas',60);
+INSERT INTO Puente VALUES ('6','Lukas',100);
+INSERT INTO Puente VALUES ('6','Leo',70);
